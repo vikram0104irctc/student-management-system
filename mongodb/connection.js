@@ -1,7 +1,9 @@
+require("dotenv").config();
+
+URI = process.env.MONGO_URI;
+
 const mongoose = require("mongoose");
 
-const mongoconnection = mongoose.connect(
-  "mongodb://127.0.0.1:27017/nemevaluation"
-);
+const mongoconnection = mongoose.connect(URI);
 
 module.exports = { mongoconnection };
