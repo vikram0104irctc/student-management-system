@@ -1,5 +1,7 @@
 const express = require("express");
 
+const cors = require("cors");
+
 const studentRoutes = require("./routes/studentRoutes");
 const logger = require("./middleware/logger");
 const rateLimiter = require("./middleware/rateLimiter");
@@ -12,6 +14,8 @@ const { loginRoute } = require("./routes/login.route");
 const { registerRoute } = require("./routes/register.route");
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 app.use(logger);

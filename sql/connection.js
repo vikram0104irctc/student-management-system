@@ -2,9 +2,11 @@ const mysql = require("mysql2");
 require("dotenv").config();
 
 const connection = mysql.createConnection({
-  user: "root",
+  host: "sql12.freesqldatabase.com",
+  user: "sql12732897",
   password: process.env.SQL_PASSWORD,
-  database: "user_detail",
+  database: "sql12732897",
+  port: 3306
 });
 
 connection.query(`

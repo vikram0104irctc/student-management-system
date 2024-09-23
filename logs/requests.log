@@ -117,3 +117,17 @@
 23/9/2024, 8:02:42 am-GET/students-{"admin_email":"rohit@galactic.edu","admin_password":"12345"}
 23/9/2024, 8:04:19 am-POST/login-{"admin_email":"rohit@galactic.edu","admin_password":"12345"}
 23/9/2024, 8:04:27 am-GET/students-{"admin_email":"rohit@galactic.edu","admin_password":"12345"}
+23/9/2024, 8:56:41 am-POST/admins-{"admin_id":1,"admin_name":"Rohit","admin_email":"rohit@galactic.edu","admin_password":"12345","school_id":1}
+23/9/2024, 8:56:57 am-POST/admins-{"admin_id":2,"admin_name":"Jaadu","admin_email":"jaadu@interstellar.com","admin_password":"12345","school_id":2}
+23/9/2024, 8:58:56 am-GET/admins-{"admin_id":2,"admin_name":"Jaadu","admin_email":"jaadu@interstellar.com","admin_password":"12345","school_id":2}
+23/9/2024, 8:59:13 am-GET/students-{"admin_id":2,"admin_name":"Jaadu","admin_email":"jaadu@interstellar.com","admin_password":"12345","school_id":2}
+23/9/2024, 8:59:22 am-POST/login-{"admin_id":2,"admin_name":"Jaadu","admin_email":"jaadu@interstellar.com","admin_password":"12345","school_id":2}
+23/9/2024, 8:59:43 am-GET/students-{"admin_id":2,"admin_name":"Jaadu","admin_email":"jaadu@interstellar.com","admin_password":"12345","school_id":2}
+23/9/2024, 9:00:47 am-POST/students-{"student_id":1,"student_name":"Ravi","student_age":12,"grade":7,"school_id":1}
+23/9/2024, 9:01:09 am-POST/students-{"student_id":2,"student_name":"Vikram","student_age":13,"grade":8,"school_id":2}
+23/9/2024, 9:01:29 am-POST/students-{"student_id":3,"student_name":"Vikki","student_age":15,"grade":10,"school_id":3}
+23/9/2024, 9:01:32 am-GET/students-{"student_id":3,"student_name":"Vikki","student_age":15,"grade":10,"school_id":3}
+23/9/2024, 9:01:46 am-GET/schools-{"student_id":3,"student_name":"Vikki","student_age":15,"grade":10,"school_id":3}
+23/9/2024, 9:02:29 am-POST/schools-{"school_id":1,"school_name":"Galactic High","school_address":"123 Space St, Mars"}
+23/9/2024, 9:02:44 am-POST/schools-{"school_id":2,"school_name":"Interstellar Academy","school_address":"789 Nova Blvd, Jupiter"}
+23/9/2024, 9:02:46 am-GET/schools-{"school_id":2,"school_name":"Interstellar Academy","school_address":"789 Nova Blvd, Jupiter"}
